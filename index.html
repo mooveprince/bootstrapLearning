@@ -8,10 +8,6 @@
         <style type="text/css">
             p{
                 border: 1px solid #DADFE1;
-            }
-            .msgcontent p{
-                padding: 25%; 
-                margin-bottom: 1px;
             }          
             body {
                 background-color: #FFFFFF;
@@ -19,7 +15,18 @@
             h1 {
                 color:#4183D7;
             }
-
+            @media (min-width: 768px) {
+                .msgcontent p{
+                    padding: 25%; 
+                    margin-bottom: 1px;
+                }
+            }
+            @media(max-width:767px){
+                .msgcontent p{
+                    padding: 45%; 
+                    margin-bottom: 1px;
+                }                
+            }            
             
         </style>        
     </head>
