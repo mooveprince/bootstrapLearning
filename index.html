@@ -5,24 +5,15 @@
         <title>Bootstrap</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-        <style type="text/css">
-            .msgcontent p{
-                border: 1px solid #DADFE1;
-            }          
+        <style type="text/css">         
             h1 {
                 color:#4183D7;
             }
-            @media (min-width: 768px) {
-                .msgcontent p{
-                    padding: 25%; 
-                    margin-bottom: 1px;
-                }
-            }
-            @media(max-width:767px){
-                .msgcontent p{
-                    padding: 45%; 
-                    margin-bottom: 1px;
-                }                
+            .page-header {
+                border-bottom: 1px solid #4183D7;
+            } 
+            .msgcontent p{
+                border: 1px solid #DADFE1;
             } 
             form {
                 margin-bottom: 3px;
@@ -37,7 +28,19 @@
                 text-align: center;
                 padding: 10px;
                 font-size: 0.75em;
+            }            
+            @media (min-width: 768px) {
+                .msgcontent p{
+                    padding: 25%; 
+                    margin-bottom: 1px;
+                }
             }
+            @media(max-width:767px){
+                .msgcontent p{
+                    padding: 45%; 
+                    margin-bottom: 1px;
+                }                
+            } 
             
         </style>        
     </head>
